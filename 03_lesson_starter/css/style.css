@@ -1,5 +1,20 @@
+/* Lesson 3 really just about color codes
+coolors.co for creating hexcodes and color contrast checker
+webaim contrast checker.
+*/
+
+
 body {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
+    line-height: 1.25;
+    background: aliceblue; /*better than background-color8*/
+    color: black /*can use rgb() if you want*/
+    /* how to do night mode in css? */
+
 }
+
+p { /* Paragraph selector */
+    color: palegreen
+}
+
