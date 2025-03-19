@@ -1,0 +1,29 @@
+body {
+    font-size: large;
+}
+
+h1, h2 {
+    color: red
+}
+
+.gray { /* element selector */
+    color: gray
+ }
+
+p {
+    color: rgb(0, 128, 6)
+}
+
+p{ /* overidden by more specific class .gray. specificity overrides regardless of position */
+    color: red
+}
+
+.highlight { /* CLASS SELECTOR BEST */
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+
+ #second {
+    font-style: italic;
+ }
