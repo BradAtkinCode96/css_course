@@ -1,7 +1,11 @@
 /* Don't set the font size as abosolute value.
 number lengths and percentages: 
-abosulte and relative values
+Absolute and relative values
 */
+
+body {
+    width: 100vw;
+}
 
 h1 {
     border: 2px dashed blue;
